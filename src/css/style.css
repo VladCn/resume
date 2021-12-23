@@ -1,18 +1,20 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;
+    padding: 0;
+    margin: 0;
 }
 .main-container{
     display: flex;
     flex-direction: row-reverse;
     width: 1200px;
     background-color: #FFFFFF;
-    margin: 40px auto;
+    margin:  0;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 /* main-bar-section*/
 .main-content-section {
-    padding: 100px 90px;
+    padding: 50px 90px 173px 90px;
 }
 .main-content-title{
     font-style: normal;
@@ -42,7 +44,7 @@ body{
     margin: 0 0 25px 0;
 }
 .about-my-description{
-    Width: 400px;
+    /*Width: 400px;*/
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -73,10 +75,12 @@ body{
 }
 .my-projects-link{
     font-style: normal;
-    font-weight: normal;
+    /*font-weight: normal;*/
     font-size: 14px;
     line-height: 24px;
     color: #595959;
+    font-weight: bold;
+    text-decoration: none;
 }
 .my-projects-bracket{
     font-style: normal;
@@ -168,11 +172,12 @@ body{
     color: #FFFFFF;
 }
 .contact-section-link{
-    color: #565E6A;
+    color: #f7f9fc;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
+    text-decoration: none;
 }
 /*teach-skills section*/
 .teach-skills-list{
@@ -191,4 +196,8 @@ body{
     font-size: 14px;
     line-height: 24px;
     color: #FFFFFF;
+}
+
+.mar-50{
+    margin-bottom: 50px;
 }
